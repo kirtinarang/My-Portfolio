@@ -1,0 +1,235 @@
+/* About section file */
+.about-sec {
+    background-color: yellow;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    color: brown;
+}
+
+.lt {
+    width: 50%;
+    padding: 3rem 0rem 0rem 7rem;
+}
+
+.lt img {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+}
+
+.lt img:hover{
+    box-shadow:1px 1px 5px 5px brown;
+}
+.rt {
+    width: 50%;
+    padding: 12rem 0rem 0rem 1rem;
+}
+
+.rt h2 {
+    margin: -5rem 7rem 1rem 1rem;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: black;
+}
+
+.rt p {
+    font-size: 1.5rem;
+    word-spacing: 2px;
+}
+
+/* Skills Section */
+.skills-sec {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.skills-sec h2 {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.hori {
+    background-color: white;
+    width: 67.2vw;
+    height: 3px;
+    margin: 13rem 12.7rem;
+    display: flex;
+}
+
+.vert {
+    width: 3px;
+    height: 6rem;
+    background-color: white;
+    margin: 0px 12.8rem;
+}
+
+.vert img {
+    width: 5rem;
+    position: relative;
+    top: -93px;
+    left: -243px;
+}
+.vert img:hover{
+    box-shadow:1px 1px 5px 5px white;
+    border-radius:1rem;
+    cursor:pointer;
+}
+.vert-icon {
+    /* width:5rem; */
+    position: relative;
+    top: 99px;
+    width: 2rem;
+    left: 202px;
+}
+
+/* Contact Section */
+.contact-sec {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    /* border:10px solid red; */
+    display: flex;
+}
+
+.lft {
+    padding: 10rem 4rem 0rem 10rem;
+    width: 45rem;
+    /* border:2px solid blue; */
+    color: white;
+}
+
+.lft h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+.lft p {
+    font-size: 1.75rem;
+    padding-top: 2rem;
+    font-family: cursive;
+}
+
+.rgt {
+    padding: 8rem 0rem 0rem 17rem;
+    width: 50rem;
+    /* border:2px solid blue; */
+}
+
+.frm input {
+    width: 15rem;
+    height: 2rem;
+}
+
+.frm button {
+    background-color: cyan;
+    color: black;
+    width: 15rem;
+    height: 3rem;
+}
+/* Footer Section */
+.foot-items{
+    width:100%;
+    height:50vh;
+    background-color:rgba(0, 0, 0, 0.94);
+    color:white;
+}
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+}
+.foot-logo{
+    width:20%;
+    margin:1rem 2rem 6rem -8rem;
+}
+.foot-logo img{
+    width:12rem;
+}
+.list{
+    width:20%;
+}
+.footer-navbar{
+    width:10%;
+    margin:1.75rem 2rem 0rem 0rem;
+    font-size:1.25rem;
+}
+.footer-navbar li{
+    /* color:white; */
+    list-style-type:none;
+    margin:0.25rem;
+}
+.footer-navbar li a{
+    text-decoration:none;
+    color:yellow;
+}
+.footer-navbar li a:hover{
+    text-decoration:underline;
+    color:white;
+    font-size:1.5rem;
+}
+.links{
+    width:15%;
+}
+.social{
+    display:flex;
+    /* justify-content: ; */
+}
+.social li{
+    margin:5rem 0rem 4rem 0.5rem;
+    list-style-type:none;
+}
+.social li a{
+    color: rgba(255, 255, 255, 0.801);
+    text-decoration: none;
+    font-size: 1.9rem;
+    padding: 1rem;
+}
+.insta a:hover {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    border-radius: 2rem;
+    font-size: 2.25rem;
+}
+.meta a:hover {
+    background-color: rgb(0, 100, 224);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    border-radius: 2rem;
+    font-size: 2.25rem;
+}
+
+.dis a:hover {
+    background-color: rgb(114, 137, 218);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    border-radius: 2rem;
+    font-size: 2.25rem;
+}
+
+.tele a:hover {
+    background-color: rgb(48 163 230);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    border-radius: 2rem;
+    font-size: 2.25rem;
+}
+
+.tweet a:hover {
+    background-color: (0, 0, 0);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    border-radius: 2rem;
+    font-size: 2.25rem;
+}
+.line{
+    /* padding: 0rem 0rem 10rem 5rem; */
+    font-size: 1.25rem;
+    margin:0rem 0rem 0rem 5rem;
+}
+.line p{
+    color:#fdf497;
+}

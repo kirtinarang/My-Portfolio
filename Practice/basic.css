@@ -1,0 +1,162 @@
+/* element selector */
+span {
+    color: darkcyan;
+}
+
+/* link */
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+/* Box Model */
+h1 {
+    color: orange;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 100px;
+    font-size: 100px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: rgb(0, 0, 255);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+body {
+    /* background-color: cyan; */
+    background-image: url(2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* class selector */
+.testone {
+    border: 2px solid orange;
+    color: red;
+}
+
+/* id selector */
+#hero {
+    color: orange;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/* universal selector */
+* {
+    font-family: cursive;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* absolute works wrt screen */
+/* realtive wala box1 ko parent maan lega */
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+
+/* flexbox--to create the layout of the website. */
+/* div ko center mein lana h */
+.container {
+    /* width:250px; */
+    height: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(45, 44, 45);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 5px solid orange;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    background-color: #ffc961;
+    margin: 2px;
+}
+
+/* box sizing */
+.box1 {
+    background-color: cadetblue;
+    width: 500px;
+    height: 120px;
+    box-sizing: content-box;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+/* border box mein ussi k ander set krdiya width nd height mein
+content box mein extra padding k liye space lega voh */
+.box2 {
+    background-color: palevioletred;
+    width: 500px;
+    height: 120px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+/* media query--responsive website using css */
+@media(max-width:720px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media(min-width:500px) {
+    .container {
+        background-color: cyan;
+    }
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px 100px;
+    border: 1px solid black;
+}
+
+.boxes {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    margin: 3px;
+}

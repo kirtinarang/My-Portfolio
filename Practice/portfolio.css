@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Roboto:ital,wght@1,500&family=Ubuntu:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Navigation bar */
+header {
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    background-color:cyan;
+    width:150vw;
+    height:15vh;
+    border-radius:5px;
+}
+.nav ul li {
+    list-style-type: none;
+    font-weight: bold;
+    margin:2rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:black;
+}
+
+.nav ul {
+    justify-content: center;
+    display:flex;
+    background-color:cyan;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    margin-left:100px;
+    justify-content:right;
+}
+
+.nav ul li a:hover {
+    font-size: 2rem;
+    color: red;
+    background-color: yellow;
+}
+.buttons {
+    margin: 1.4rem;
+}
+
+.buttons a {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.github:hover {
+    color: #24292e;
+    font-size: 2.5rem;
+}
+
+.linkedin:hover {
+    color: #0077b5;
+    font-size: 2.5rem;
+}
+/* Different Sections */
+.sections{
+    color:white;
+}
+.intro{
+    font-weight:bold;
+}
+.about{
+    background-color:brown;
+}
+.about img{
+    margin-left:50px;
+    margin-top: 30px;
+} 
+.about p{
+    text-transform: capitalize;
+    text-align:center;
+}
+.skills{
+    background-color:black;
+}
+.skills ul li{
+    text-align:center;
+}
+.project{
+    background-color:brown;
+}
+.project ul li{
+    text-align: center;
+}
+.resume{
+    background-color:black;
+}
+.resume a{
+    align-items:center;
+}
+.resume a:hover{
+    color:white;
+}
+.contact{
+    background-color:brown;
+}
+h2,p{
+    text-align: center;
+}
+/* Footer */
